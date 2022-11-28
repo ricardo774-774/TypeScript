@@ -101,9 +101,9 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "exclude": [
-    "node_module"
+    "node_module2"
   ],
   "include": [
-    "classes/private-constructor.ts"
+    "classes/abstract.ts"
   ]
 }
