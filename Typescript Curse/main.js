@@ -1,29 +1,16 @@
 "use strict";
-(() => {
-    class Hero {
-        constructor(name, power) {
-            this.name = name;
-            this.power = power;
-        }
-    }
-    ;
-    class Avenger extends Hero {
-        helloAveng() {
-            return 'Hello from the avengers';
-        }
-    }
-    class Dc extends Hero {
-        helloDc() {
-            return 'Hello from CD';
-        }
-    }
-    const spiderman = new Avenger('Spiderman', 'Spider');
-    console.log(spiderman.helloAveng());
-    const batman = new Dc('Batman', 'Money');
-    console.log(batman.helloDc());
-    const spiderman_2 = (data) => {
-        console.log(`${data.name}`);
+var validations;
+(function (validations) {
+    validations.validateText = (text) => {
+        return (text.length > 3)
+            ? true
+            : false;
     };
-    spiderman_2(spiderman);
-})();
+    const validateDate = (myDate) => {
+        return (typeof (myDate) == "number")
+            ? true
+            : false;
+    };
+})(validations || (validations = {}));
+console.log(validations.validateText('Ricardo'));
 //# sourceMappingURL=main.js.map

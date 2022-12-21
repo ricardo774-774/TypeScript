@@ -104,6 +104,6 @@
     "node_module2"
   ],
   "include": [
-    "classes/abstract.ts"
+    "namespaces/validations.ts"
   ]
 }
