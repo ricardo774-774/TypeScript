@@ -8,10 +8,6 @@
     "build": "",
     "start": ""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ricardo774-774/TypeScript.git#master"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
